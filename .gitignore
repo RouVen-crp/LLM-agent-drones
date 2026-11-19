@@ -30,6 +30,10 @@ sources/*
 !sources/TD3_resources/
 !sources/TD3_resources/**
 
+# never upload bytecode (re-included by the negation above)
+sources/TD3_resources/__pycache__/
+sources/TD3_resources/**/*.pyc
+
 # vendor README media (keep source, assets and examples)
 gym-pybullet-drones-0.5.2/files/readme_images/
 gym-pybullet-drones-0.5.2/files/videos/
