@@ -1,0 +1,27 @@
+# project requirements
+pyaudio~=0.2.14
+openai-whisper
+pydub~=0.25.1
+scipy~=1.15.2
+numpy~=1.26.4
+matplotlib~=3.10.1
+openai~=1.70.0
+google-generativeai==0.6.0
+python-dotenv~=1.1.0
+pybullet~=3.2.7
+langchain~=0.3.22
+stable_baselines3
+torch
+gym==0.25.2
+Pillow>=12.0
+colorama
+transformers>=4.45,<5
+datasets>=3,<4
+peft>=0.13,<1
+accelerate>=1,<2
+langgraph>=0.2
+rank_bm25>=0.2
+fastapi>=0.115
+uvicorn>=0.30
+# issues related to whisper, particularly ffmpeg
+# https://github.com/openai/whisper

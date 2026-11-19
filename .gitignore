@@ -1,0 +1,35 @@
+# secrets / local environment
+.env
+**/.env
+.venv/
+.idea/
+.work/
+.bench/
+tmp/
+__pycache__/
+*.pyc
+*.pyo
+
+# generated datasets, adapters, evaluation artifacts
+artifacts/
+data/
+results/
+r2d2_images
+*.xml
+
+# personal / interview material
+reference_docs/
+.scratch/
+
+# stale duplicate tests at repository root (package tests live in the packages)
+/tests/
+
+# legacy Leviosa assets: keep only the TD3 resources
+sources/*
+!sources/__init__.py
+!sources/TD3_resources/
+!sources/TD3_resources/**
+
+# vendor README media (keep source, assets and examples)
+gym-pybullet-drones-0.5.2/files/readme_images/
+gym-pybullet-drones-0.5.2/files/videos/
